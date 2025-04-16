@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Titulo -->
+    <string name="Title">-Calcule o salário-</string>
+
+
+    <!-- Cores do Projeto -->
+    <color name="fundo">#333333</color>
+    <color name="mainColor">#4A90E2</color>
+    <color name="destaque">#FFA500</color>
+    <color name="complementar">#2ECC71</color>
+    <color name="neutra">#FFFFFF</color>
+
+</resources>

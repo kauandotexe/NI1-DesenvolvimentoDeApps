@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="monospace"
+        android:text="@string/Title"
+        android:textAlignment="center"
+        android:textColor="@color/destaque"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/neutra"
+        android:ems="10"
+        android:hint="Insira o salário atual (R$)"
+        android:inputType="number|numberDecimal"
+        android:padding="15dp" />
+
+    <TextView
+        android:id="@+id/textCalcule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:fontFamily="monospace"
+        android:text="Qual será o percentual?"
+        android:textAlignment="textStart"
+        android:textColor="@color/destaque"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/RadioGroup"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="40%"
+            android:textColor="@color/neutra"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="45%"
+            android:textColor="@color/neutra"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="50%"
+            android:textColor="@color/neutra"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:backgroundTint="@color/destaque"
+        android:onClick="enviar"
+        android:text="Calcule" />
+
+    <TextView
+        android:id="@+id/textResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="monospace"
+        android:text="Resultado"
+        android:textAlignment="center"
+        android:textColor="@color/destaque"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+</LinearLayout>

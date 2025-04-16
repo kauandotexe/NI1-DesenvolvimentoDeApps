@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--cores do app-->
+    <color name="fundo">#49817A</color>             <!-- Azul-petróleo -->
+    <color name="text">#FAECBB</color>            <!-- Bege-creme -->
+    <color name="button">#EFB24C</color>    <!-- Amarelo-pão -->
+    <color name="destaque">#B53B2D</color>          <!-- Vermelho-tomate -->
+
+
+</resources>
